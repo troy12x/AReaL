@@ -3,7 +3,7 @@
 SCRIPT_DIR=$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)
 
 EXP_NAME=ppo-zero-distill-1.5B-n1
-MODEL_NAME="silx-ai/Quasar-3.7"
+MODEL_NAME="Quasar-3.7"
 DATASET_NAME="prompts_for_r1_distilled.jsonl"
 NODES=1
 ALLOCATION_MODE="actor_gen:d4p1m2,*:d4p2m1"
